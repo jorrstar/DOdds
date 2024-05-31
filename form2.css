@@ -1,0 +1,10 @@
+body{
+    background-image: url(new1.jpg);
+    text-align: center;
+    color: yellow;
+    font-family:cursive;
+    font-style: oblique;
+}
+form{
+    font-size: 1.5em;
+}

@@ -1,0 +1,72 @@
+<html><!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>mes projets</title>
+</head>
+<header>bienvenue sur la page d'acceuil de mes projets<br>___________________ </header>
+<body>
+	<style >
+header{
+	background-color: gray;
+	font-family: cursive;
+	font-style: oblique;
+	color: yellow;
+}
+		body{
+			text-align: center;
+			background-image:url(boss.webp) ;
+			background-size: cover;
+		}
+		.bouton {
+display: inline-block;
+background-color: #6200ea;
+color: white;
+text-decoration: none;
+border: none;
+border-radius: 25px;
+padding: 15px 30px;
+font-size: 16px;
+cursor: pointer;
+transition: transform 0.3s ease,background-color 0.3s ease;
+margin: 10px;
+text-align: center;
+overflow: hidden;
+}
+.bouton:before{
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 300%;
+   height: 300%;
+  
+   border-radius: 50%;
+   transform: translate(-50%,-50%)scale(0);
+   transition: transform 0.5s ease;
+}
+.bouton:hover:before{
+   transform: translate(-50%,-50%) scale(1);
+}
+.bouton:hover{
+   transform: scale(1.1);
+   background-color: #3700b3;
+}
+a{
+	text-align: center;
+}
+	</style>
+
+<a href="bootstrap_projetperso.html" class="bouton">Avec bootstrap</a><br>
+<a href="frame_projetperso.html" class="bouton">Sans bootstrap</a>
+
+</body>
+<footer>
+      <div class="icon">
+   <a href="https://www.facebook.com/profile.php?id=100088276313271"><img src="fb.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/doddstougan?igsh=YzljYTk1ODg3Zg=="><img src="insta.png" alt="Instagram"></a>
+                 <a href="https://www.snapchat.com/add/doddstougan?share_id=ksIJ9RBoshQ&locale=fr-FR" > <img src="snap.png"> </a>
+</div> 
+    </footer>
+</html>

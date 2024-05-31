@@ -1,0 +1,16 @@
+body{
+    background-image: url(new4.jpg);
+    background-size: contain;
+}
+p{
+     font-size: 1.7em; 
+     color: yellow;
+      font-family:cursive;
+    font-style: oblique;
+}
+h3{
+    text-decoration: underline; font-size: 2em;
+    color: yellow;
+     font-family:cursive;
+    font-style: oblique;
+}

@@ -1,0 +1,21 @@
+h1{
+     text-align: center; font-size: 3em; text-decoration: underline; 
+     color: yellow;
+}
+h2{
+    text-decoration: underline;
+    color: blue; 
+}
+p{
+    font-size: 1.7em; 
+    color: pink;
+}
+.p-titres{
+    text-decoration: underline;
+}
+body{
+    background-image: url(new2.jpg);
+    font-family: cursive;
+    font-style: italic;
+text-align: center;
+}

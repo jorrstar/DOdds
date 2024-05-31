@@ -1,0 +1,17 @@
+table{
+    text-align: center; border-collapse: collapse; width: 60%; background-image: url(new5.jpg); font-size: 2em;
+     font-family:cursive;
+    font-style: oblique;
+    background-size: cover;
+    color: yellow;
+}
+tr,td{
+    border: 1.5px solid black;
+}
+body{
+    background-image: url(new3.jpg);
+    background-size: cover;
+}
+caption{
+    text-decoration: underline; font-size: 1.7em;
+}
